@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Describe the animation for activity_step2.xml -->
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- A transition describes an animation via start and end state -->
+    <Transition
+            app:constraintSetStart="@+id/start"
+            app:constraintSetEnd="@+id/end">
+        <!-- TODO add OnSwipe tag -->
+    </Transition>
+
+    <!-- Constraints to apply at the start of the animation -->
+    <ConstraintSet android:id="@+id/start">
+        <!-- TODO apply starting constraints -->
+    </ConstraintSet>
+
+    <!-- Constraints to apply at the end of the animation -->
+    <ConstraintSet android:id="@+id/end">
+        <!-- TODO apply ending constraints -->
+    </ConstraintSet>
+</MotionScene>
