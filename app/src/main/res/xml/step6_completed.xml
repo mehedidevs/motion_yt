@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <!-- Describe the animation for activity_step3.xml -->
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- A transition describes an animation via start and end state -->
     <Transition
-
         app:constraintSetEnd="@+id/end"
         app:constraintSetStart="@+id/start"
         app:duration="3000">
@@ -61,10 +58,6 @@
                 <CustomAttribute
                     app:attributeName="colorFilter"
                     app:customColorValue="#FFB612" />
-
-                <CustomAttribute
-                    app:attributeName="srcCompat"
-                    app:customReference="@drawable/ic_star_outline" />
 
 
             </KeyAttribute>
